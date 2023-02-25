@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi-ws
     env: node
     plan: free
     region: frankfurt
@@ -29,6 +29,6 @@ services:
         generateValue: true
 
 databases:
-  - name: strapi
+  - name: strapi-db
     plan: free
     region: frankfurt
