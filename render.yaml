@@ -28,3 +28,4 @@ databases:
   - name: strapi-db
     plan: free
     region: frankfurt
+
